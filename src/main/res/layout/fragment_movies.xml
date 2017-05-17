@@ -1,0 +1,202 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/caro"
+        android:background="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:slideInterval="4000"
+        app:radius="5dp">
+
+    </com.synnapps.carouselview.CarouselView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horror Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForHorror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        android:text="Comedy Movies"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForComedy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Romantic Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForRomance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Family Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForCrime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thriller Movies"
+        android:textSize="15dp"
+        android:textColor="#0d20ec"
+        android:textStyle="bold"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a16b6b"
+        >
+
+        <LinearLayout
+            android:id="@+id/dynamicLinLayoutForThriller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7e6e6"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/backImgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+
+
+
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/activity_movie_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="35dp"
+            android:textColor="#fc05a5"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detailed Activity"/>
+
+        <ImageView
+            android:id="@+id/coverImgView"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|start"/>
+
+
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="director"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_gravity="center|left"
+            />
+        <TextView
+            android:id="@+id/producer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="productor"
+            android:textSize="25dp"
+            android:layout_gravity="center|left"
+            />
+        <TextView
+            android:id="@+id/time"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="start|bottom"
+            />
+        <TextView
+            android:id="@+id/rating"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rating"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="bottom|start"
+
+            />
+
+        <Button
+            android:id="@+id/play"
+            android:text="Play"
+            android:layout_width="125dp"
+            android:background="#bda31111"
+            android:layout_gravity="bottom"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="playVideo"/>
+        <Button
+            android:id="@+id/download"
+            android:layout_margin="10dp"
+            android:background="#bda31111"
+            android:layout_gravity="left"
+            android:text="Download"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:onClick="downloadVideo"/>
+
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbar" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
